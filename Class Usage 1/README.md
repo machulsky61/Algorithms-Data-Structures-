@@ -1,3 +1,4 @@
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 # Class Usage
 
 This repository contains the resolution of the specified exercises. Each exercise can be solved by editing the file `src/functions.cpp`. Below are the specifications for each function. Initially, you can utilize the set, map, and vector modules from the standard library. However, later on, it will be necessary to use modules provided by the course. Reference specifications are provided at the end of this document.
