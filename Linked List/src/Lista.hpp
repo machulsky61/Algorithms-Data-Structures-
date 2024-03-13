@@ -3,7 +3,6 @@
 Lista::Lista(): _pri{nullptr}, _ult{nullptr}, _lon{0} {}
 
 Lista::Lista(const Lista& l) : Lista() {
-    //Inicializa una lista vacía y luego utiliza operator= para no duplicar el código de la copia de una lista.
     *this = l;
 }
 

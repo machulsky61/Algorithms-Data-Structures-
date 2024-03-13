@@ -10,77 +10,29 @@ typedef unsigned long Nat;
 
 class Lista {
 public:
+    Lista(); // Default constructor
 
-    /**
-     * Constructor por defecto de la clase Lista.
-     */
-    Lista();
+    Lista(const Lista& l); // Copy constructor
 
-    /**
-     * Constructor por copia de la clase Lista.
-     */
-    Lista(const Lista& l);
+    ~Lista(); // Destructor
 
-    /**
-     * Destructor de la clase Lista.
-     */
-    ~Lista();
+    Lista& operator=(const Lista& aCopiar); // Assignment operator
 
-    /**
-     * Operador asignacion
-     * @param aCopiar
-     * @return
-     */
-    Lista& operator=(const Lista& aCopiar);
+    void agregarAdelante(const int& elem); // Add element to the front of the list
 
-    /**
-     * Agrega un elemento al principio de la Lista.
-     * @param elem elemento a agregar
-     */
-    void agregarAdelante(const int& elem);
+    void agregarAtras(const int& elem); // Add element to the end of the list
 
-    /**
-     * Agrega un elemento al final de la Lista.
-     * @param elem elemento a agregar
-     */
-    void agregarAtras(const int& elem);
+    void eliminar(Nat i); // Delete the i-th element from the list
 
-    /**
-     * Elimina el i-ésimo elemento de la Lista.
-     * @param i posición del elemento a eliminar
-     */
-    void eliminar(Nat i);
+    int longitud() const; // Return the number of elements in the list
 
-    /**
-     * Devuelve la cantidad de elementos que contiene la Lista.
-     * @return
-     */
-    int longitud() const;
+    const int& iesimo(Nat i) const; // Return the i-th element of the list (const)
 
-    /**
-     * Devuelve el elemento en la i-ésima posición de la Lista.
-     * @param i posición del elemento a devolver.
-     * @return referencia no modificable
-     */
-    const int& iesimo(Nat i) const;
-    /**
-     * Devuelve el elemento en la i-ésima posición de la Lista.
-     * @param i posición del elemento a devolver.
-     * @return referencia modificable
-     */
-    int& iesimo(Nat i);
+    int& iesimo(Nat i); // Return the i-th element of the list
 
-    /**
-     * Muestra la lista en un ostream
-     * formato de salida: [a_0, a_1, a_2, ...]
-     * @param o
-     */
-    void mostrar(ostream& o);
+    void mostrar(ostream& o); // Show the list in an ostream
 
-    /**
-     * Utiliza el método mostrar(os) para sobrecargar el operador <<
-     */
-    friend ostream& operator<<(ostream& os, Lista& l) {
+    friend ostream& operator<<(ostream& os, Lista& l) { // Overload the << operator
         l.mostrar(os);
         return os;
     }
