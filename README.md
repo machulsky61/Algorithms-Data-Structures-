@@ -1,13 +1,13 @@
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 # Algorithms & Data Structures II
+## About the Course
+Algorithms and Data Structures II provides a comprehensive understanding of fundamental concepts, crucial for correct and efficient algorithmic problem-solving. The course covers specification, design, implementation, and computational complexity. It introduces abstract data types recursively and presents techniques for algorithm analysis and design. Additionally, it involves practical exercises, laboratory sessions, and projects where learned tools and techniques are applied, including sequential file handling. Most lessons were adapted from Introduction to Algorithms.
 
-## Course Overview:
-Algorithms and Data Structures II provides a comprehensive understanding of fundamental concepts crucial for correct and efficient algorithmic problem-solving. The course covers specification, design, implementation, and computational complexity. It introduces abstract data types recursively and presents techniques for algorithm analysis and design. Additionally, it involves practical exercises, laboratory sessions, and projects where learned tools and techniques are applied, including sequential file handling.
+![Cormen](https://images.cdn1.buscalibre.com/fit-in/360x360/ce/4d/ce4daab00e405bca345cfbbf20b5c8df.jpg)
 
-## Course Structure:
-The course is divided into three main blocks of topics:
-
+## Skills Learned
 **1. Abstract Data Types and Problems**
-- **Abstract Data Types:** Sequence, Stack, Queue, Array, Binary Tree, Set, Dictionary.
+- **Abstract Data Types:** Such as Sequence, Stack, Queue, Array, Binary Tree, Set, Dictionary.
 - **Specification:** Problem description using abstract types, modularization.
 - **Recursion:** Function axiomatization through recursion, structural induction.
 
@@ -23,5 +23,4 @@ The course is divided into three main blocks of topics:
 - **Recursion Elimination:** Folding/unfolding; parameter immersion.
 - **Application of Algorithms and Data Structures to Other Problems**
 
-## Conclusion:
-Algorithms and Data Structures II equips students with essential skills for problem-solving, algorithm design, and efficient data manipulation. Through a structured approach covering abstract data types, design principles, and algorithmic techniques, students gain proficiency in tackling diverse computational challenges, preparing them for real-world applications in various professional settings.
+
