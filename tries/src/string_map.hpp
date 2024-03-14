@@ -2,7 +2,7 @@ template <typename T>
 string_map<T>::string_map(): _raiz{new Nodo()}, _size{0} {}
 
 template <typename T>
-string_map<T>::string_map(const string_map<T>& aCopiar) : string_map() { *this = aCopiar; } // Provisto por la catedra: utiliza el operador asignacion para realizar la copia.
+string_map<T>::string_map(const string_map<T>& aCopiar) : string_map() { *this = aCopiar; }
 
 template <typename T>
 string_map<T>& string_map<T>::operator=(const string_map<T>& d) {
@@ -50,7 +50,6 @@ T& string_map<T>::operator[](const string& clave){
     return *n->definicion;
 }
 
-
 template <typename T>
 int string_map<T>::count(const string& clave) const {
     Nodo* n = _raiz;
@@ -61,11 +60,7 @@ int string_map<T>::count(const string& clave) const {
             return 0;
         }
     }
-    if (n->definicion) {
-        return 1;
-    } else {
-        return 0;
-    }
+    return n->definicion ? 1 : 0;
 }
 
 template <typename T>

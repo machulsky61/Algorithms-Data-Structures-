@@ -1,4 +1,3 @@
-
 template <class T>
 Conjunto<T>::Conjunto(): _raiz{nullptr} {}
 
@@ -50,7 +49,7 @@ void Conjunto<T>::remover(const T& clave) {
     Nodo* padre = _raiz;
     Nodo* borrar = padre;
     bool eraRaiz = _raiz->valor == clave;
-    bool esHijoIzq = padre->izq && clave == padre->izq->valor;;
+    bool esHijoIzq = padre->izq && clave == padre->izq->valor;
     if (!eraRaiz) {
         // busco padre de z, guardo
         while (!esHijoIzq && (!padre->der || clave != padre->der->valor)) {
@@ -86,7 +85,7 @@ void Conjunto<T>::remover(const T& clave) {
         if (!eraRaiz) {
             (esHijoIzq ? padre->izq : padre->der) = borrar->izq;
         } else {
-            heredero = borrar->izq;   
+            heredero = borrar->izq;
         }
     }
     if (eraRaiz) {
@@ -151,4 +150,3 @@ template <class T>
 void Conjunto<T>::mostrar(std::ostream& os) const {
 
 }
-
