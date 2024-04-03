@@ -1,7 +1,7 @@
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-# Algorithms & Data Structures II
+# Algorithms & Data Structures
 ## About the Course
-Algorithms and Data Structures II provides a comprehensive understanding of fundamental concepts, crucial for correct and efficient algorithmic problem-solving. The course covers specification, design, implementation, and computational complexity. It introduces abstract data types recursively and presents techniques for algorithm analysis and design. Additionally, it involves practical exercises, laboratory sessions, and projects where learned tools and techniques are applied, including sequential file handling. Most lessons were adapted from Introduction to Algorithms.
+It provides a comprehensive understanding of fundamental concepts, crucial for correct and efficient algorithmic problem-solving. The course covers specification, design, implementation, and computational complexity. It introduces abstract data types recursively and presents techniques for algorithm analysis and design. Additionally, it involves practical exercises, laboratory sessions, and projects where learned tools and techniques are applied, including sequential file handling. Most lessons were adapted from Introduction to Algorithms.
 
 ![Cormen](https://images.cdn1.buscalibre.com/fit-in/360x360/ce/4d/ce4daab00e405bca345cfbbf20b5c8df.jpg)
 
