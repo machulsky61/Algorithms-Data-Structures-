@@ -3,7 +3,7 @@
 ## About the Course
 It provides a comprehensive understanding of fundamental concepts, crucial for correct and efficient algorithmic problem-solving. The course covers specification, design, implementation, and computational complexity. It introduces abstract data types recursively and presents techniques for algorithm analysis and design. Additionally, it involves practical exercises, laboratory sessions, and projects where learned tools and techniques are applied, including sequential file handling. Most lessons were adapted from Introduction to Algorithms.
 
-![Cormen](https://images.cdn1.buscalibre.com/fit-in/360x360/ce/4d/ce4daab00e405bca345cfbbf20b5c8df.jpg)
+<img src="https://images.cdn1.buscalibre.com/fit-in/360x360/ce/4d/ce4daab00e405bca345cfbbf20b5c8df.jpg" width="200" height="300"><img src="https://m.media-amazon.com/images/I/81WPe-1hGbL._AC_UF1000,1000_QL80_.jpg" width="200" height="300"><img src="https://m.media-amazon.com/images/I/71ETsGj0-PL._AC_UF1000,1000_QL80_.jpg" width="200" height="300"><img src="https://m.media-amazon.com/images/I/81i3yPOUA5L._AC_UF1000,1000_QL80_.jpg" width="200" height="300"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDvKcSuhN_FYilCE82HqTpjIW5NXO8lhHiP1HXASOpAw&s" width="200" height="300">
 
 ## Skills Learned
 **1. Abstract Data Types and Problems**
