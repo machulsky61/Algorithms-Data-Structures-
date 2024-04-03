@@ -1,5 +1,5 @@
 ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-# Algorithms & Data Structures
+# Algorithms and Data Structures
 ## About the Course
 It provides a comprehensive understanding of fundamental concepts, crucial for correct and efficient algorithmic problem-solving. The course covers specification, design, implementation, and computational complexity. It introduces abstract data types recursively and presents techniques for algorithm analysis and design. Additionally, it involves practical exercises, laboratory sessions, and projects where learned tools and techniques are applied, including sequential file handling. Most lessons were adapted from Introduction to Algorithms.
 
